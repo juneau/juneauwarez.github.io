@@ -94,6 +94,8 @@
 			border-color: transparent;
 		}
 
+	.colon li:first-child { list-style: none; }
+
 /* Icon */
 
 	.icon {
