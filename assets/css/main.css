@@ -520,6 +520,23 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			margin-bottom: .25em;
+		}
+
+		#header h2 {
+			font-size: 3.35em;
+			font-weight: 450;
+			letter-spacing: -0.025em;
+			line-height: .75em;
+			margin-bottom: .25em;
+		}
+
+		#header h3 {
+			font-size: 2.35em;
+			font-weight: 225;
+			letter-spacing: -0.015em;
+			line-height: .5em;
+			margin-bottom: .25em;
 		}
 
 		#header p {
@@ -942,6 +959,14 @@
 
 		#header h1 {
 			font-size: 2.5em;
+		}
+
+		#header h2 {
+			font-size: 2em;
+		}
+
+		#header h3 {
+			font-size: 1.5em;
 		}
 
 		#header p {
