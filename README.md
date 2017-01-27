@@ -1,3 +1,3 @@
 # juneauwarez.github.io
 
-This is the repo behind my personal website, [andrewjuneau.com](http://andrewjuneau.com).
+This is the repo behind my personal website, [andrewjuneau.com](https://www.andrewjuneau.com).
