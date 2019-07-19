@@ -5,16 +5,13 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?"/>
 		<title>Andrew Juneau's website</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<a rel="me" href="https://scholar.social/@juneau">Mastodon</a>
-
 	</head>
 
-	<body class="loading">
+	<body class="is-preload">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
@@ -23,15 +20,17 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>Andrew Juneau</h1>
-						<p>Applied Economics &nbsp;&bull;&nbsp; Management &nbsp;&bull;&nbsp; Technical Writing &#38; Communication</p>
-						<p>Currently at the University of Minnesota Law School</p>
+						<!-- <p>Applied Economics &nbsp;&bull;&nbsp; Management &nbsp;&bull;&nbsp; Technical Writing &#38; Communication</p> -->
+						<!-- <p>Currently at the University of Minnesota Law School</p> -->
+						<p><i class="fas fa-balance-scale-left"></i></i> currently studying at the University of Minnesota Law School <i class="fas fa-balance-scale-right"></i></p>
 						<nav>
 							<ul>
-								<li><a href="https://www.instagram.com/juneauwhoiam/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/JuneauWarez/" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/andrewjuneau" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="http://andrewjuneau.com/cv.pdf" class="icon fa-file-pdf-o"><span class="label">CV</span></a></li>
-								<li><a href="mailto:contact@andrewjuneau.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="https://www.instagram.com/juneauwhoiam/" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/JuneauWarez/" class="fab fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/andrewjuneau" class="fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="http://andrewjuneau.com/cv.pdf" class="fas fa-file-alt"><span class="label">CV</span></a></li> -->
+								<li><a href="mailto:contact@andrewjuneau.com" class="fas fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://keybase.io/juneau" class="fab fa-keybase"><span class="label">Keybase</span></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -47,9 +46,8 @@
 			</div>
 		</div>
 
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script>
-			window.onload = function() { document.body.className = ''; }
+			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
