@@ -8602,7 +8602,7 @@ input, select, textarea {
 				box-shadow: none !important;
 			}
 
-.staticrypt-page {
+/* .staticrypt-page {
 	width: 360px;
 	padding: 8% 0 0;
 	margin: auto;
@@ -8626,21 +8626,21 @@ input, select, textarea {
 	width: 100%;
 	border: 0;
 	margin: 0 0 15px;
-	/* padding: 15px; */
+	padding: 15px;
 	box-sizing: border-box;
 	font-size: 14px;
 }
 
 .staticrypt-form .staticrypt-decrypt-button {
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
 	outline: 0;
 	background: #7FC8EB;
 	width: 100%;
 	border: 0;
-	/* padding: 15px; */
+	padding: 15px;
 	color: #FFFFFF;
 	font-size: 14px;
-	/* cursor: pointer; */
+	cursor: pointer;
 }
 
 .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
@@ -8654,4 +8654,4 @@ input, select, textarea {
 
 .staticrypt-title {
 	font-size: 1.5em;
-}
+} */
